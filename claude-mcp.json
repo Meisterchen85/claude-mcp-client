@@ -1,8 +1,15 @@
 {
   "client_id": "https://meisterchen85.github.io/claude-mcp-client/claude-mcp.json",
   "client_name": "Claude Desktop (Dominik Mock)",
-  "redirect_uris": ["http://127.0.0.1:19332/oauth/callback"],
-  "grant_types": ["authorization_code", "refresh_token"],
-  "response_types": ["code"],
+  "redirect_uris": [
+    "http://claude-local.test:19332/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
   "token_endpoint_auth_method": "none"
 }
